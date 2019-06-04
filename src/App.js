@@ -24,7 +24,12 @@ class App extends Component {
       return (
         <div className="App">
           <div className="App-header">
-            <button className="ui white button" style={{marginBottom: '2%'}}><i className="folder open icon"></i> Home </button>
+            <button
+              className="ui white button"
+              style={{marginBottom: '2%'}}
+            >
+              <i className="folder open icon"></i> Home
+            </button>
               <p><i className="caret right icon"></i><i className="file icon"></i> File1</p>
               <p><i className="caret right icon"></i><i className="file icon"></i> File2</p>
               <p><i className="caret right icon"></i><i className="file icon"></i> File3</p>
@@ -36,7 +41,12 @@ class App extends Component {
       return (
         <div className="App">
           <div className="App-header">
-            <button className="ui white button" style={{marginBottom: '2%'}}><i className="folder icon"></i> Home </button>
+            <button
+              className="ui white button"
+              style={{marginBottom: '2%'}}
+            >
+              <i className="folder icon"></i> Home
+            </button>
             <button className="ui red button" onClick={this.onToggleClick}> Toggle </button>
           </div>
         </div>
